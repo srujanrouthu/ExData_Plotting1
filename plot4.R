@@ -18,4 +18,3 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty 
 plot(subdata$DT, subdata$Global_reactive_power, type = "n", xlab = "datetime", ylab = "Global_reactive_power");
 lines(subdata$DT, subdata$Global_reactive_power);
 dev.off();
-
